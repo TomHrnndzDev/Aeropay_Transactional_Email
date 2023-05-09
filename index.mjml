@@ -1,0 +1,225 @@
+<mjml>
+  <mj-body>
+
+    <!-- logo header -->
+    <mj-section background-color="#FFFFFF" background-size="cover" background-repeat="no-repeat">
+      <mj-column>
+        <mj-image width="224px" src="/img/logo.png">
+      </mj-column>
+    </mj-section>
+
+    <!-- cloud-banner -->
+    <mj-section background-color="#F3FFFE" background-size="cover" background-repeat="no-repeat">
+      <mj-column>
+        <mj-image padding="0px" src="/img/clouds.png">
+      </mj-column>
+    </mj-section>
+    figure out how to actually make border raduis work not just background radius
+    <!-- receipt-section -->
+    <mj-section background-color="#FFFFFF" background-size="cover" background-repeat="no-repeat" padding="0px">
+      <mj-column background-color="#000000" width="280px" border-radius="10px 10px 0px 0px">
+        <mj-text align="center" font-size="14px" font-weight="400" font-family="Arial,sans-serif" color="#FFFFFF" padding="20px">Receipt #1002925</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- name and store -->
+    <mj-section background-color="#FFFFFF" background-size="cover" background-repeat="no-repeat" padding="0px">
+      <mj-column border-right="1px solid black" border-left="1px solid black" background-color="#FFFFFF" width="280px">
+        <mj-table font-size="16px" padding-bottom="0px">
+          <tr style="">
+            <td style="width:20px;padding:10px;">
+              <img src="/img/head.png" />
+            </td>
+            <td>
+              TOM HERNANDEZ
+            </td>
+          </tr>
+        </mj-table>
+        <mj-table font-size="16px" padding-top="0px">
+          <tr>
+            <td style="width:20px;padding:10px;">
+              <img src="/img/store.png" />
+            </td>
+            <td>
+              Amuse Ecomm
+            </td>
+          </tr>
+        </mj-table>
+
+      </mj-column>
+    </mj-section>
+
+
+
+    <!-- cost and date/time -->
+    <mj-section background-color="#FFFFFF" background-size="cover" background-repeat="no-repeat" padding-bottom="10px" padding="0px">
+      <mj-column border="1px solid black" border-radius="70px" background-color="#FFFFFF" width="280px">
+
+        <mj-table>
+          <tr>
+            <td align="center" style="font-size:28px;font-weight:700;"> $114.80</td>
+          </tr>
+        </mj-table>
+
+        <mj-table>
+          <tr>
+            <td align="center" style="font-size:16px;font-weight:400;color:#5a5a5a"> $104.36 + $10.44 tip
+
+            </td>
+          </tr>
+        </mj-table>
+
+        <mj-table>
+          <tr>
+            <td style="font-size:16px;font-weight:400;color:#5a5a5a">Date
+
+            </td>
+            <td style="font-size:16px;font-weight:400;color:#00000">Feb 26, 2023
+
+            </td>
+          </tr>
+        </mj-table>
+
+        <mj-table>
+          <tr>
+            <td style="font-size:16px;font-weight:400;color:#5a5a5a">Time
+
+            </td>
+            <td style="font-size:16px;font-weight:400;color:#00000">1:19:14 PM
+
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- paragrapgh summary -->
+
+    <mj-section background-color="#FFFFFF">
+      <mj-column width="550px">
+        <mj-text padding="0px" line-height="24px" font-size="16px">
+
+          Hi TOM,
+          <br>
+          <br>
+          Your payment to <strong> Amuse Ecomm</strong> for $114.80 on Feb 26, 2023 was successfully completed! It will show up in your bank as a payment to Amuse Ecomm.
+          <br>
+          <br>
+          To refund this payment, please contact Amuse Ecomm. Canceled purchases may automatically void your payment.
+          <br>
+          <br>
+
+          <a style="text-decoration:underline;"> Sign in to view your activity here.</a>
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+    <!-- black icon section -->
+
+
+    <mj-section background-color="#000000" padding-bottom="0px">
+      <mj-column width="550px" border-bottom="1px solid white" padding="0px 0px 20px 0px">
+        <mj-image padding="0px" width="140px" align="left" src="/img/footer-logo.png" />
+      </mj-column>
+    </mj-section>
+
+
+    <!-- icon section -->\
+    <mj-section background-color="#000000" padding-bottom="0px">
+      <mj-column padding="0px">
+        <mj-social align="left" font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element src="/img/insta.png">
+
+          </mj-social-element>
+          <mj-social-element src="/img/twitter.png">
+
+          </mj-social-element>
+          <mj-social-element src="/img/linkedin.png">
+
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- links section -->
+    <mj-section background-color="#000000" padding-top="0px">
+      <mj-column>
+        <mj-table line-height="30px">
+          <tr>
+            <td><a style="color:#FFFFFF;text-decoration:underline;font-size:16px;">Log in</a></td>
+          </tr>
+          <tr>
+            <td><a style="color:#FFFFFF;text-decoration:underline;font-size:16px;">Support</a></td>
+          </tr>
+          <tr>
+            <td><a style="color:#FFFFFF;text-decoration:underline;font-size:16px;">FAQS</a></td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+
+    <!-- terms section -->
+
+    <mj-section background-color="#000000" padding-top="0px">
+      <mj-column border="1px solid red" width="100%" padding-right="100px">
+        <mj-table line-height="30px" align="left">
+          <tr>
+            <td>
+              <a style="color:#FFFFFF;font-size:16px;border-right:2px solid white;padding-right:15px">© 2022 Aeropay</a>
+            </td>
+            <td><a style="color:#FFFFFF;text-decoration:underline;border-right:2px solid white;padding-right:10px;font-size:16px;">Terms of use</a>
+            </td>
+            <td><a style="color:#FFFFFF;text-decoration:underline;font-size:16px;">Privacy Policy</a>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+
+
+    </mj-section>
+
+    <!-- bottom-section -->
+
+
+    <mj-section background-color="#FFFFFF">
+      <mj-column width="550px" border-bottom="1px solid black">
+        <mj-text padding="0px" line-height="24px" font-size="16px" padding-bottom="30px">
+
+
+
+          Questions? Reach out to our Customer Care team! Please email us at <a style="text-decoration:underline;">support@aeropay.com</a>!
+          <br>
+          <br>
+          Read Aeropay's <a style="text-decoration:underline;">Privacy Policy</a> and <a style="text-decoration:underline;">Terms of Service</a> .
+          <br>
+
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+
+    <mj-section background-color="#FFFFFF">
+      <mj-column width="550px">
+        <mj-text padding="0px" line-height="24px" font-size="16px" padding-top="0px">
+
+
+
+          For security reasons, you cannot unsubscribe from payment emails or important account notifications.
+          <br>
+          <br>
+          © 2022 Aero Payments, Inc. <br>
+          4619 N Ravenswood, Suite 203 <br>
+          Chicago, IL 60640
+          <br>
+
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+
+  </mj-body>
+</mjml>
